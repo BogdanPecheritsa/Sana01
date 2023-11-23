@@ -6,10 +6,13 @@ Console.InputEncoding = Encoding.Unicode;
 
 Console.WriteLine("Значення а:");
 a = double.Parse(Console.ReadLine());
+
 Console.WriteLine("Значення b:");
 b = double.Parse(Console.ReadLine());
+
 Console.WriteLine("Значення c:");
 c = double.Parse(Console.ReadLine());
+
 Console.WriteLine("Значення d:");
 d = double.Parse(Console.ReadLine());
 
