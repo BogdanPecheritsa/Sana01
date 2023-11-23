@@ -4,13 +4,13 @@ double a, b, c, d, x, y, z, r;
 Console.OutputEncoding = Encoding.Unicode;
 Console.InputEncoding = Encoding.Unicode;
 
-Console.WriteLine("Задайте значення а:");
+Console.WriteLine("Значення а:");
 a = double.Parse(Console.ReadLine());
-Console.WriteLine("Задайте значення b:");
+Console.WriteLine("Значення b:");
 b = double.Parse(Console.ReadLine());
-Console.WriteLine("Задайте значення c:");
+Console.WriteLine("Значення c:");
 c = double.Parse(Console.ReadLine());
-Console.WriteLine("Задайте значення d:");
+Console.WriteLine("Значення d:");
 d = double.Parse(Console.ReadLine());
 
 x = (a + 2 * b - c + d) / (c * d) + (a + b) / (c - d) - a * a / (b * b);
